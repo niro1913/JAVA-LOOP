@@ -1,0 +1,12 @@
+import java.util.*;
+public class Main{
+    public static void main(String [] args){
+        int i,j;
+        for(i=1;i<=7;i++){
+            System.out.println("Day"+ i);
+            for(j=1;j<=9;j++){
+                System.out.println(" "+(j+8)+"-"+(j+9));
+            }
+        }
+    }
+}
